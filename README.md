@@ -1,5 +1,5 @@
 # relativityjs
-The web components micro framework.
+A Web Components Micro Framework
 
 1. Key features
 - custom elements that can encapsulate content like with shadow DOM 
