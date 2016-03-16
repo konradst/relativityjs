@@ -1,0 +1,28 @@
+{
+  "name": "relativityjs",
+  "description": "Web Components Micro Framework",
+  "main": "relativityjs.js",
+  "moduleType": [],
+  "keywords": [
+    "Web",
+    "Components",
+    "framework",
+    "custom",
+    "elements",
+    "inherit",
+    "isolate",
+    "compatibile"
+  ],
+  "authors": [
+    "Konrad Stobiecki"
+  ],
+  "license": "MIT",
+  "homepage": "relativityjs.maximus.net.pl",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
