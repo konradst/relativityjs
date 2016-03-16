@@ -9,7 +9,7 @@ A Web Components Micro Framework
         - isolated / inheriting custom elements can be mixed and **nested** :)
     - support webcomponents with a user-friendly interface 
         - your component uses `<link rel=` to faciliate with relativityjs components (so here you go, **full RELativity** :)
-        - as a result, you don't have to do scripting at all, **write pure HTML**
+        - as a result, you don't have to do scripting at all, **all these things you can do with pure HTML**
         - you can extend relativityjs components by passing callback functions with data attributes
     - implement compatibility with Mozilla and IE
 
