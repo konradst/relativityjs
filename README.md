@@ -2,7 +2,7 @@
 A Web Components Micro Framework
 
 1. Key features
-    - you get custom elements that can encapsulate content like you do with shadow DOM **but**
+    - you get custom elements that can encapsulate content like you do with shadow DOM **and at the same time**
         - **you can control custom element relations with the DOM tree** - decide if they are isolated or not
         - you can use `<content></content>` to transclude code including other custom elements in your components like you do with shadow DOM components' content
         - you can use these elements as an alternative to deprecating `/deep/` and `::shadow` CSS so you can now use elements from your old site templates with pure HTML and no worries
