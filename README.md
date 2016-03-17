@@ -1,5 +1,5 @@
 # relativityjs
-[![Bower version](https://badge.fury.io/bo/angular-shims-placeholder.svg)](https://badge.fury.io/bo/angular-shims-placeholder)
+
 
 **Web Components Micro Framework**
 
@@ -15,7 +15,9 @@
         - you can extend relativityjs components by passing callback functions with data attributes
     - implement compatibility with Mozilla and IE
 
-2. Readings
+2. Demo and homepage [here](http://relativity.maximus.net.pl)
+
+3. Readings
     - http://www.html5rocks.com/
     - http://webcomponents.org/
 
