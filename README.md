@@ -11,8 +11,10 @@
     - support webcomponents with a user-friendly interface
         - your component uses `<link rel=` to faciliate with relativityjs components (so here you go, **full RELativity** :)
             ```
-            <!--the only thing you need to use the framework-->
+            <!-- insert this code to run the framework -->
+            
             <script src="bower_components/relativityjs/relativityjs.js"></script>
+            
             <link rel="import" href="bower_components/relativityjs/relativityjs/relativityjs.html" />
             ```
         - as a result, you don't have to do scripting at all, **all these things you can do with pure HTML**
