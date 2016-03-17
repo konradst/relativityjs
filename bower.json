@@ -2,7 +2,9 @@
   "name": "relativityjs",
   "description": "Web Components Micro Framework",
   "main": "relativityjs.js",
-  "moduleType": [],
+  "moduleType": [
+    "globals"
+  ],
   "keywords": [
     "Web",
     "Components",
@@ -24,5 +26,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "webcomponentsjs": "^0.7.21"
+  }
 }

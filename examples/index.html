@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>RelativeJS examples</title>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!--import compatibility script - todo - make it conditional-->
+        <script src="../bower_components/webcomponentsjs/webcomponents.min.js"></script>
+
+        <!--import framework-->
+        <script src="../relativityjs.js"></script>
+        <link rel="import" href="../relativityjs/relativityjs.html" />
+
+        <!--import site-specific elements-->
+        <link rel="stylesheet" href="main.css" />
+        <link rel="import" href="elements/inherit-example.html" />
+        <link rel="import" href="elements/isolated-example.html" />
+    </head>
+    <body>
+        <div>
+            <!--here we go-->
+            <isolated-example>1 isolated</isolated-example>
+            <inherit-example>2 inherit</inherit-example>
+            <isolated-example>3 isolated</isolated-example>
+            <inherit-example>4 inherit</inherit-example>
+            <inherit-example2>5 inherit 2</inherit-example2>
+            <inherit-example>6 inherit</inherit-example>
+        </div>
+    </body>
+</html>
