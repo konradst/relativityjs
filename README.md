@@ -1,5 +1,7 @@
 # relativityjs
-A Web Components Micro Framework
+[![Bower version](https://badge.fury.io/bo/angular-shims-placeholder.svg)](https://badge.fury.io/bo/angular-shims-placeholder)
+
+**Web Components Micro Framework**
 
 1. Key features
     - you get custom elements that can encapsulate content like you do with shadow DOM **and at the same time**
