@@ -1,6 +1,5 @@
 # relativityjs
 
-
 **Web Components Micro Framework**
 
 1. Key features
@@ -17,9 +16,10 @@
 
 2. Demo and homepage [here](http://relativityjs.maximus.net.pl)
 
-3. Readings
+3. See also
     - http://www.html5rocks.com/
     - http://webcomponents.org/
+    - https://www.polymer-project.org/1.0/docs/start/reusableelements.html
 
 
 
