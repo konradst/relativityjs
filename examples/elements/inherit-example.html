@@ -1,8 +1,13 @@
 <template-inherit>
     <template id="inherit-example">
-        <p>This is an example of an <content></content> custom element. <span>Notice the font color is inherited from main.css</span>.</p>
+        <p>This is an example of a custom element with content <content></content>. <span>Notice the font color is inherited from main.css</span>.</p>
     </template>
-    <template id="inherit-example2">
-        <p>This is an example2 of an <content></content> custom element. <span>Notice the font color is inherited from main.css</span>.</p>
+    <template id="inherit-example-custom-style">
+        <style>
+            span {
+                color: #9900ff;
+            }
+        </style>
+        <p>This is an example of a custom element with content <content></content>. <span>The span has got a custom color style defined in the template</span>.</p>
     </template>
 </template-inherit>

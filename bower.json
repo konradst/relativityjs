@@ -28,6 +28,7 @@
     "tests"
   ],
   "devDependencies": {
-    "webcomponentsjs": "^0.7.21"
+    "webcomponentsjs": "^0.7.21",
+    "scoped-polyfill": "konradst/scoped-polyfill"
   }
 }

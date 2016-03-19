@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
-<html>
+<html class="gradient">
     <head>
         <title>RelativeJS examples</title>
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <!--import compatibility script - todo - make it conditional-->
+        <!--webcomponents polyfills-->
         <script src="../bower_components/webcomponentsjs/webcomponents.min.js"></script>
 
         <!--import framework-->
@@ -16,17 +16,20 @@
         <!--import site-specific elements-->
         <link rel="stylesheet" href="main.css" />
         <link rel="import" href="elements/inherit-example.html" />
-        <link rel="import" href="elements/isolated-example.html" />
+        <link rel="import" href="elements/isolate-example.html" />
     </head>
     <body>
-        <div>
-            <!--here we go-->
-            <isolated-example>1 isolated</isolated-example>
-            <inherit-example>2 inherit</inherit-example>
-            <isolated-example>3 isolated</isolated-example>
-            <inherit-example>4 inherit</inherit-example>
-            <inherit-example2>5 inherit 2</inherit-example2>
-            <inherit-example>6 inherit</inherit-example>
-        </div>
+        <!--here we go-->
+        <div><p>&lt;p&gt;This is a stock paragraph styled in main.css. <span> &lt;span&gt;This is a stock span styled in main.css.&lt;/span&gt;</span>&lt;/p&gt;</p></div>
+        <div><isolate-example>#1</isolate-example></div>
+        <div><inherit-example>#2</inherit-example></div>
+        <div><isolate-example>#3</isolate-example></div>
+        <div><inherit-example>#4</inherit-example></div>
+        <div><isolate-example-custom-style>#5</isolate-example-custom-style></div>
+        <div><inherit-example-custom-style>#6</inherit-example-custom-style></div>
+        <div><inherit-example>#7</inherit-example></div>
+
+        <!--scoped polyfill for chrome-->
+        <script src="../relativityjs/scoped.js"></script>
     </body>
 </html>
