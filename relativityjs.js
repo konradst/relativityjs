@@ -4,9 +4,9 @@
     /**
      * Register RelativityJs service
      */
-    function RelativityJs(compat) {
-        this.compat = compat;
-        this.methodName = compat ? '_currentScript' : 'currentScript';
+    function RelativityJs(native) {
+        this.native = native;
+        this.methodName = native ? 'currentScript' : '_currentScript';
     }
     RelativityJs.prototype = {
         template: function (func) {
@@ -44,9 +44,9 @@
 
         },
         templateIsolate: function (el, template) {
-            var compat = this.compat;
+            var native = this.native;
             el.createdCallback = function () {
-                if (compat) template.innerHTML = '<section class="relativity-reset">' + template.innerHTML + '</section>';
+                if (native) template.innerHTML = '<section class="relativity-reset">' + template.innerHTML + '</section>';
                 //create dom node
                 var domNode = document.importNode(template.content, true);
 
@@ -54,5 +54,5 @@
             };
         }
     };
-    window.relativityJs = new RelativityJs(document.currentScript != document._currentScript);
+    window.relativityJs = new RelativityJs(!document._currentScript || document.currentScript == document._currentScript);
 })();
