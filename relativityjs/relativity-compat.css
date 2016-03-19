@@ -1,4 +1,6 @@
 .relativity-reset * {
     all: initial;
-    margin: inherit;
+}
+header .relativity-reset * {
+    all: initial;
 }
