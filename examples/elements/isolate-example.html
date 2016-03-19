@@ -1,0 +1,13 @@
+<template-isolate>
+    <template id="isolate-example">
+        <p>This is an example of a custom shadow DOM element with content <content></content>. <span>Notice the font color is isolated from main.css</span>.</p>
+    </template>
+    <template id="isolate-example-custom-style">
+        <style>
+            span {
+                color: #9900ff;
+            }
+        </style>
+        <p>This is an example of a custom shadow DOM element with content <content></content>. <span>The span has got a custom color style defined in template</span>.</p>
+    </template>
+</template-isolate>
