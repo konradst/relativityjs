@@ -46,7 +46,7 @@
         templateIsolate: function (el, template) {
             var native = this.native;
             el.createdCallback = function () {
-                if (native) template.innerHTML = '<section class="relativity-reset">' + template.innerHTML + '</section>';
+                if (!native) template.innerHTML = '<section class="relativity-reset">' + template.innerHTML + '</section>';
                 //create dom node
                 var domNode = document.importNode(template.content, true);
 
