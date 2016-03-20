@@ -21,7 +21,7 @@
     "framework"
   ],
   "author": "Konrad Stobiecki",
-  "license": "MIT",
+  "license": "BSD",
   "bugs": {
     "url": "https://github.com/konradst/relativityjs/issues"
   }
