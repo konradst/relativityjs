@@ -55,4 +55,5 @@
         }
     };
     window.relativityJs = new RelativityJs(!document._currentScript || document.currentScript == document._currentScript);
+    window.dispatchEvent(new Event('relativityJs.ready'));
 })();

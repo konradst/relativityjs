@@ -8,6 +8,12 @@
 </template>
 <script>
     (function() {
-        window.relativityJs.template('Inherit');
+        if(window.relativityJs) {
+            window.relativityJs.template('Inherit');
+        } else {
+            window.addEventListener('relativityJs.ready', function () {
+                window.relativityJs.template('Inherit');
+            });
+        }
     })();
 </script>
